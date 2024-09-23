@@ -96,7 +96,7 @@ const TestimonialsSection = () => {
       <div className="max-w-7xl mx-auto mb-20 p-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex flex-col justify-center text-left">
-            <h2 className="text-4xl md:text-4xl font-bold text-green-500 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-green-500 mb-4">
               Trusted by over 8M sellers around the world
             </h2>
           </div>

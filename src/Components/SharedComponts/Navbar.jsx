@@ -42,7 +42,7 @@ const Navbar = () => {
             <img src={DesignifyLogo} alt="Logo" className="h-10" />
           </a>
 
-          {/* Desktop menu (hidden on mobile and medium) */}
+          {/* Desktop menu (hidden on mobile and medium screens) */}
           <ul className="hidden lg:flex lg:space-x-8">
             <NavItem title="Catalogs" />
             <DropdownMenu
@@ -109,7 +109,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          {/* Mobile menu toggle button (visible on medium and small screens) */}
+          {/* Mobile menu toggle button (visible on small and medium screens) */}
           <button
             className="lg:hidden text-gray-600 hover:text-gray-900 focus:outline-none"
             onClick={toggleMobileMenu}
@@ -122,7 +122,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile menu (shown on medium and small screens) */}
+        {/* Mobile menu (shown on small and medium screens) */}
         {isMobileMenuOpen && (
           <div className="lg:hidden bg-white shadow-lg p-4">
             <ul className="space-y-4">

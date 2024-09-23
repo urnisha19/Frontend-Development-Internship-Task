@@ -12,11 +12,11 @@ const ProductDesignSection = () => {
   }, []);
 
   return (
-    <section className="py-16 bg-gray-100 m-10">
-      <div className="container mx-auto flex flex-col md:flex-row items-center px-4 md:px-0">
+    <section className="py-16 bg-gray-100 px-4 md:px-10 lg:px-20">
+      <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Left Image Side */}
-        <div className="md:w-1/2 mb-8 md:mb-0">
-          <div className="relative">
+        <div className="md:w-1/2 mb-8 md:mb-0 flex justify-center">
+          <div className="relative w-full max-w-md">
             <img
               src={ProductDesign}
               alt="Add design to custom products"
@@ -27,10 +27,10 @@ const ProductDesignSection = () => {
 
         {/* Right Text Side */}
         <div
-          className="md:w-1/2 md:pl-12 text-left bg-white p-20"
+          className="md:w-1/2 md:pl-12 bg-white p-8 md:p-12 lg:p-20 text-center md:text-left"
           data-aos="fade-up"
         >
-          <h2 className="text-3xl font-bold mb-6 text-gray-800">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800">
             Easily add your design to a wide range of products
           </h2>
           <p className="text-gray-600 mb-6">

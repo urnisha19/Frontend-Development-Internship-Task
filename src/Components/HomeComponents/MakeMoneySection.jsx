@@ -8,25 +8,25 @@ const MakeMoneySection = () => {
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center max-w-6xl mx-auto py-16 px-4 md:px-0 relative mt-20">
+    <div className="flex flex-col md:flex-row items-center justify-center max-w-6xl mx-auto py-16 px-4 md:px-8 relative mt-20">
       {/* Left - Profit Calculator */}
       <div
         className="md:w-2/5 w-full relative z-10 mb-8 md:mb-0"
         data-aos="slide-left"
       >
-        <div className="bg-gray-900 text-white p-10 rounded-lg shadow-lg">
+        <div className="bg-gray-900 text-white p-8 md:p-10 rounded-lg shadow-lg">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Make Money, Risk-Free
           </h2>
           <p className="mb-4 text-sm md:text-base">
             You pay for fulfillment only when you make a sale.
           </p>
-          <div className="bg-gray-800 p-8 rounded-lg mb-6">
-            <div className="flex justify-between mb-3">
+          <div className="bg-gray-800 p-6 md:p-8 rounded-lg mb-6">
+            <div className="flex justify-between mb-3 text-sm md:text-base">
               <span>You sell a t-shirt</span>
               <span>$30</span>
             </div>
-            <div className="flex justify-between mb-3">
+            <div className="flex justify-between mb-3 text-sm md:text-base">
               <span>You pay for its production</span>
               <span>$12</span>
             </div>
@@ -38,7 +38,7 @@ const MakeMoneySection = () => {
           </div>
           <button
             type="button"
-            className="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600"
+            className="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 w-full md:w-auto"
           >
             Start selling
           </button>

@@ -8,23 +8,23 @@ const HeroSection = () => {
   const [currentImage, setCurrentImage] = useState(Tshirt);
 
   useEffect(() => {
-    // Set an interval to toggle between the images every second
+    // Set an interval to toggle between the images every 3 seconds
     const imageToggle = setInterval(() => {
       setCurrentImage((prevImage) =>
         prevImage === Tshirt ? CustomProduct : Tshirt
       );
-    }, 3000); // Change image every 1 second
+    }, 3000); // Change image every 3 seconds
 
     // Cleanup the interval when the component unmounts
     return () => clearInterval(imageToggle);
   }, []);
 
   return (
-    <section className="bg-white py-16 px-10 m-10">
+    <section className="bg-white py-16 px-5 md:px-10">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Left side - Hero content */}
         <div className="text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight">
             Create and sell custom products
           </h1>
           <ul className="list-none mb-6 space-y-3">
@@ -59,11 +59,11 @@ const HeroSection = () => {
         </div>
 
         {/* Right side - Hero image with toggle effect */}
-        <div className="flex justify-center md:justify-end animate-wiggle animate-infinite">
+        <div className="flex justify-center md:justify-end">
           <img
             src={currentImage}
             alt="Custom Product"
-            className="w-full md:w-3/4"
+            className="w-full sm:w-4/5 md:w-3/4 animate-wiggle animate-infinite"
           />
         </div>
       </div>

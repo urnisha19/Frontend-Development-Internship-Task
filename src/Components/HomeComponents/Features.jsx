@@ -4,10 +4,10 @@ import bestSelection from "../../assets/best-selection.svg";
 
 const Features = () => {
   return (
-    <section className="py-16 m-16">
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-4">
+    <section className="py-16 px-4 md:px-16">
+      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Feature 1 */}
-        <div className="p-8 flex flex-col text-left rounded-lg">
+        <div className="p-8 flex flex-col items-center md:items-start text-center md:text-left rounded-lg">
           <img
             src={higherProfits}
             alt="Higher Profits"
@@ -20,7 +20,7 @@ const Features = () => {
         </div>
 
         {/* Feature 2 */}
-        <div className="p-8 flex flex-col text-left rounded-lg">
+        <div className="p-8 flex flex-col items-center md:items-start text-center md:text-left rounded-lg">
           <img
             src={robustScaling}
             alt="Robust Scaling"
@@ -34,7 +34,7 @@ const Features = () => {
         </div>
 
         {/* Feature 3 */}
-        <div className="p-8 flex flex-col text-left rounded-lg">
+        <div className="p-8 flex flex-col items-center md:items-start text-center md:text-left rounded-lg">
           <img
             src={bestSelection}
             alt="Best Selection"

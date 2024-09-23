@@ -6,39 +6,39 @@ const Footer = () => {
     <footer className="bg-gray-100 py-8 border-t border-gray-300">
       <div className="container mx-auto px-6">
         {/* Logo and Social Media Icons */}
-        <div className="flex justify-between items-center mb-8 m-10">
+        <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           {/* Left: Logo */}
-          <div>
-            <img src={DesignifyLogo} alt="Designify Logo" className="h-16" />
+          <div className="mb-4 md:mb-0">
+            <img src={DesignifyLogo} alt="Designify Logo" className="h-12 md:h-16" />
           </div>
           {/* Right: Social Media Icons */}
-          <div className="flex space-x-4 m-10">
+          <div className="flex space-x-4">
             <a href="https://facebook.com" aria-label="Facebook" className="text-green-500 hover:text-green-700">
-              <FaFacebookF />
+              <FaFacebookF size={20} />
             </a>
             <a href="https://instagram.com" aria-label="Instagram" className="text-green-500 hover:text-green-700">
-              <FaInstagram />
+              <FaInstagram size={20} />
             </a>
             <a href="https://linkedin.com" aria-label="LinkedIn" className="text-green-500 hover:text-green-700">
-              <FaLinkedinIn />
+              <FaLinkedinIn size={20} />
             </a>
             <a href="https://pinterest.com" aria-label="Pinterest" className="text-green-500 hover:text-green-700">
-              <FaPinterest />
+              <FaPinterest size={20} />
             </a>
             <a href="https://youtube.com" aria-label="YouTube" className="text-green-500 hover:text-green-700">
-              <FaYoutube />
+              <FaYoutube size={20} />
             </a>
             <a href="https://tiktok.com" aria-label="TikTok" className="text-green-500 hover:text-green-700">
-              <FaTiktok />
+              <FaTiktok size={20} />
             </a>
             <a href="https://reddit.com" aria-label="Reddit" className="text-green-500 hover:text-green-700">
-              <FaReddit />
+              <FaReddit size={20} />
             </a>
           </div>
         </div>
 
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 m-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Column 1: Integrations */}
           <div>
             <h3 className="text-lg font-bold text-gray-700 mb-4">Integrations</h3>
