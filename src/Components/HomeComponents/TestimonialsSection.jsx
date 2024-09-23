@@ -10,19 +10,19 @@ const testimonials = [
     name: 'Robert A. Voltaire',
     stars: 5,
     storeLink: '#',
-    text: 'Printify has been an incredible service for us musicians unable to keep large amounts...',
+    text: 'Designify has been an incredible service for us musicians unable to keep large amounts...',
   },
   {
     name: 'Quinten Barney',
     stars: 5,
     storeLink: '#',
-    text: 'We chose Printify because of their offerings as well as their incredibly low prices...',
+    text: 'We chose Designify because of their offerings as well as their incredibly low prices...',
   },
   {
     name: 'Nikki',
     stars: 5,
     storeLink: '#',
-    text: 'Printify has been an amazing partner to work with as we grow our business...',
+    text: 'Designify has been an amazing partner to work with as we grow our business...',
   },
 ];
 
