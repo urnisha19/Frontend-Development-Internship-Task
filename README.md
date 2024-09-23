@@ -1,6 +1,6 @@
 # Frontend Development Internship Task
 
-**Live demo**:
+**Live demo**: https://frontend-development-internship-task.vercel.app/
 
 ## Objective
 This project is part of an internship task to create a homepage inspired by the design of the [Printify homepage](https://printify.com/), using **ReactJS** and **Tailwind CSS**. The goal of the task is to demonstrate proficiency in ReactJS, responsiveness, and attention to detail.
